@@ -15,7 +15,7 @@ export default function Login() {
     const handleLogin = () => {
         window.open(
             // `${process.env.REACT_APP_SERVER_URL}auth/google/callback`,
-            `/auth/google/callback`,
+            `/api/auth/google/callback`,
             "_self"
         );
         localStorage.setItem("checklogin", "true");
