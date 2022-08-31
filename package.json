@@ -15,23 +15,18 @@
         "axios": "^0.27.2",
         "cookie-session": "^2.0.0",
         "cors": "^2.8.5",
-        "csv-parser": "^3.0.0",
         "dotenv": "^16.0.1",
         "express": "^4.18.1",
         "get-ip-range": "^4.0.1",
-        "google-auth-library": "^8.3.0",
-        "ip": "^2.0.0",
         "ip-range-check": "^0.2.0",
         "jsonwebtoken": "^8.5.1",
         "mongoose": "^6.5.2",
         "netaddr": "^1.1.0",
+        "nodemon": "^2.0.19",
         "papaparse": "^5.3.2",
         "passport": "^0.5.3",
         "passport-google-oauth20": "^2.0.0",
         "path": "^0.12.7",
         "range_check": "^2.0.4"
-    },
-    "devDependencies": {
-        "nodemon": "^2.0.19"
     }
 }
