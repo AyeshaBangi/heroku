@@ -14,7 +14,8 @@ export default function Login() {
     }, [token]);
     const handleLogin = () => {
         window.open(
-            `${process.env.REACT_APP_SERVER_URL}auth/google/callback`,
+            // `${process.env.REACT_APP_SERVER_URL}auth/google/callback`,
+            `/auth/google/callback`,
             "_self"
         );
         localStorage.setItem("checklogin", "true");
